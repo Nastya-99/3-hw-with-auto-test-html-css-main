@@ -44,8 +44,7 @@ header span {
 }
 
 .text-wrapper {
-  width: 425px;
-  max-width: 380px;
+  max-width: 425px;
   /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -106,6 +105,7 @@ select:hover,
 .info-wrapper {
   display: flex;
   flex-wrap: nowrap;
+  gap: 60px;
   /* 📍 Свойство flexbox для расположения 2-х списков в ряд */
 }
 
@@ -125,6 +125,7 @@ select:hover,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 16px;
   /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
@@ -146,6 +147,7 @@ select:hover,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
   /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
