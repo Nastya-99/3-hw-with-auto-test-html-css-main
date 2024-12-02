@@ -72,6 +72,7 @@ header span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 60px;
 
   /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
